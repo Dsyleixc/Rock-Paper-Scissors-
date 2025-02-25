@@ -26,7 +26,7 @@ img {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   width: 700px;
+   width: 1000px;
 }
 
 .scores {
@@ -99,4 +99,14 @@ img {
    font-size: 24px;
    font-weight: 900;
    color: #f9faf8;
+}
+
+#player-choice {
+   width: 250px;
+   height: 100%;
+}
+
+#computer-choice {
+   width: 250px;
+   height: 100%;
 }
