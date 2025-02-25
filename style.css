@@ -1,0 +1,102 @@
+body {
+   background-color: #1f2937;
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+img {
+   width: 50px;
+   height: 100%;
+}
+
+.Title {
+   color: #f9faf8;
+   font-size: 48px;
+   font-weight: 900;
+   margin-bottom: 20px;
+}
+
+.game-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 700px;
+}
+
+.scores {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.score-slot {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 24px;
+   font-weight: 900;
+   color: #f9faf8;
+}
+
+.score {
+   font-size: 48px;
+   font-weight: 900;
+   color: #ffffff;
+}
+
+.round-result {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+.round-result-text {
+   font-size: 24px;
+   font-weight: 900;
+   color: #f9faf8;
+}
+
+.choices-container {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.user-choice-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.computer-choice-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.choices {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.choice-title {
+   font-size: 24px;
+   font-weight: 900;
+   color: #f9faf8;
+}
